@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A new form </title>
+<style>
+	body{ display: flex; Justify-content: center; align-item: center; padding: 9px;}
+
+</style>
+</head>
+<body bgcolor="#FFF8DC">
+    <form action="#" method="post">
+        <font color="red">
+        <h1>
+            <marquee behavior="#" direction="left" >Sign Up Form</marquee>
+        </font>
+        </h1>
+        <hr color="white"> 
+        <h2>
+        <label for="user1"> First Name: </label>
+        <input type="user1" id="user1" name="username" placeholder="First Name"> <br>
+        <label for="user2"> Last Name: </label>
+        <input type="user2" id="user2" name="username" placeholder="Last Name"> <br>
+        <label for="email"> E-Mail Address: </label>
+        <input type="email" id="email" name="mail" placeholder="E-Mail"> <br>
+        <label for="pass"> Passward: </label>
+        <input type="passward" id="pass" name="passward" placeholder="passward"> <br>
+        <label for="number"> Phone: </label>
+        <select name="code">
+            <option value="+880">+880</option>
+            <option value="+990">+990</option>
+            <option value="+550">+550</option>
+            <option value="+660">+660</option>
+            <option value="+440">+440</option>
+            <option value="+752">+752</option>
+        </select>
+        <input type="number" id="code" name="number" placeholder="123456789"> <br>
+        <label for="country"> Country: </label>
+        <input list="code1">
+        <datalist id="code1">
+            <option value="bangladesh"> Bangladesh </option> <br>
+            <option value="india"> India </option> <br>
+            <option value="pakistan"> Pakistan </option> <br>
+            <option value="china"> China </option>
+        </datalist> <br>
+       
+        Gender:
+        <input type="radio" id="gnd1" name="gender">
+        <label for="gnd1"> Male </label>
+        <input type="radio" id="gnd2" name="gender">
+        <label for="gnd2"> Female </label>
+        <br>
+        <label for="date"> Date of Birth: </label>
+        <input type="date" id="date" name="date of birth"> <br>
+        <label for="time"> Time: </label>
+        <input type="time" id="time" name="date"> <br>
+        <label for="color"> Color: </label>
+        <input type="color" id="color" name="color"> <br>
+        <label for="pic"> Your Photo: </label>
+        <input type="file" id="pic" name="file"> <br>
+        <input type="checkbox" id="blk1" name="bike">
+        <label for="blk1"> I have a bike </label>
+        <input type="checkbox" id="blk2" name="bycycle">
+        <label for="blk2"> I have a bycycle </label> <br> <br>
+        <textarea name="comment" cols="40" rows="4" placeholder=" Drop your comment"></textarea> <br>
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+        </h2>   
+    </form>   
+</body>
+</html>
